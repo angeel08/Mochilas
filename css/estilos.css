@@ -1,13 +1,20 @@
-.g{
-    color: rgb(30, 9, 151);
-        font-family: "Playwrite CO";
-            font-weight: 100px;
-                background-color: khai;                 /* poner una color wapo, y no subrayarlo, solo pintarlo entero */
+body{
+    background-color: lightblue;
 }
-.h{
-    color: darkblue;
-        font-family: "Playwrite CO";
+.Titulo{
+    font-size: 1.80cm;
+    font-weight: 100px;
+    color: rgb(61, 36, 208);
+    font-family: "Playwrite CO";              
 }
-.t{
-    color: rgb(102, 237, 129 ) ;
+.tipos-de-mochilas{
+    color: rgb(6, 6, 176);
+    font-family: "Playwrite CO";
+}
+.el-titulo-de-mochilas{
+    color: rgb(102, 2, 123) ;
+    font-family:"Playwrite CO";
+}
+.Personalízalo{
+    font-family:"Playwrite CO";
 }
