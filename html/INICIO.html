@@ -18,32 +18,79 @@
 </head>
 
 <body>
-    </br>
+    <!-- inicio del navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mochilas Inovadoras</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="INICIO.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Tipos de mochilas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mochilas Gaming</a></li>
+                            <li><a class="dropdown-item" href="#">Mochilas autoenergéticas</a></li>
+                            <li>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mochilas de clase</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="Buscar">
+                    <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Búsqueda</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- fin del navbar -->
 
-    <h1 class="Titulo">Mochilas Inovadoras</h1>
+    <!-- empiece del carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../imagenes/b.png" class="d-block w-100" alt="foto">          <!-- quitar fto -->
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- fin del carousel -->                   
 
-    <div class="row" class=pading-col-2>
-        <hr>
-        <br>
-        <div class="col-4" class="">      
-            <a href="INICIO.html">Inicio</a>         <!-- esta pegado a la pared -->
-        </div>
-        <br><br><br>
-        <div class="col-4">
-            <a href="Tiposdemochilas.html">Tipos de mochilas</a>
-        </div>
-        <br><br><br>
-        <div class="col-4">
-            <a href="../html/Personalízalo.html">Personalízalo</a>
-        </div>
-        <br><br><br>
-        
-    </div> <!-- fin de container -->
+
 
 </body>
 
-</html>  <!--<div class="row">
-            <div class="col-4">ocupo 4 trozos</div>
-            <div class="col-4">ocupo 4 trozos</div>
-            <div class="col-4">ocupo 4 trozos</div>
-            </div> -->
+</html>

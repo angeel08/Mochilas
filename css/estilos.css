@@ -1,20 +1,6 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(122, 98, 65);
 }
-.Titulo{
-    font-size: 1.80cm;
-    font-weight: 100px;
-    color: rgb(61, 36, 208);
-    font-family: "Playwrite CO";              
-}
-.tipos-de-mochilas{
-    color: rgb(6, 6, 176);
-    font-family: "Playwrite CO";
-}
-.el-titulo-de-mochilas{
-    color: rgb(102, 2, 123) ;
-    font-family:"Playwrite CO";
-}
-.Personalízalo{
-    font-family:"Playwrite CO";
+.carousel{
+    height: 300px;
 }
