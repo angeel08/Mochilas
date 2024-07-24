@@ -2,3 +2,7 @@
 body{
     background-color: rgb(158, 135, 103);       /* preguntar a mi hermano que si es mejor ponerlo con tantas */
 }
+.accordion{
+    width: 100000px;
+    height: 800px;
+}
