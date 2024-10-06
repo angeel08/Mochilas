@@ -5,3 +5,7 @@ body{
 .accordion{
     width: 100000px;
 }
+.carousel{
+    width: 1000px;
+    height: 2000px;
+}
